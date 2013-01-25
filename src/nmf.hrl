@@ -1,0 +1,13 @@
+-define(REC_VERSION             , 16#00). % Version Record
+-define(REC_MODE                , 16#01). % Mode Record
+-define(REC_VIA                 , 16#02). % Via Record
+-define(REC_KNOWN_ENCODING      , 16#03). % Known Encoding Record
+-define(REC_EXTENSIBLE_ENCODING , 16#04). % Extensible Encoding Record
+-define(REC_UNSIZED_ENVELOPE    , 16#05). % Unsized Envelope Record
+-define(REC_SIZED_ENVELOPE      , 16#06). % Sized Envelope Record
+-define(REC_END                 , 16#07). % End Record
+-define(REC_FAULT               , 16#08). % Fault Record
+-define(REC_UPGRADE_REQUEST     , 16#09). % Upgrade Request Record
+-define(REC_UPGRADE_RESPONSE    , 16#0A). % Upgrade Response Record
+-define(REC_PREAMBLE_ACK        , 16#0B). % Preamble Ack Record
+-define(REC_PREAMBLE_END        , 16#0C). % Preamble End Record
